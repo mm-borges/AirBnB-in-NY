@@ -1,0 +1,11 @@
+expression query_invoke_dates =
+		let
+		    Source = List.Dates
+		in
+		    Source
+	lineageTag: c2574b77-a845-4104-a98b-4598a88f5594
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Function
+

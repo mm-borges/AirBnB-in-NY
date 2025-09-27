@@ -1,0 +1,85 @@
+table host_id_summerized
+	lineageTag: f0fdc7d4-0bc5-4570-9bfc-8d84cdb473b4
+
+	column host_id
+		dataType: int64
+		formatString: 0
+		lineageTag: e33852a0-4786-4e47-96ed-f98b8d107af9
+		summarizeBy: none
+		sourceColumn: host_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column frequency
+		dataType: int64
+		formatString: 0
+		lineageTag: fd21bb87-94aa-439e-b90f-36779a9a8a16
+		summarizeBy: none
+		sourceColumn: frequency
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"host_id_summerized","TableItemName":"frequency (bins)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column 'frequency (bins)' =
+			IF(
+				ISBLANK('host_id_summerized'[frequency]),
+				BLANK(),
+				INT('host_id_summerized'[frequency] / 3) * 3
+			)
+		formatString: 0
+		lineageTag: 1f8b3ee3-e81a-426b-8436-40231c591d50
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "host_id_summerized"
+				          }
+				        },
+				        "Property": "frequency"
+				      }
+				    }
+				  ],
+				  "binningMetadata": {
+				    "binSize": {
+				      "value": 3.0,
+				      "unit": 0
+				    }
+				  }
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"h","Entity":"host_id_summerized"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"h"}},"Property":"frequency"}}],"BinItem":{"Expression":{"Floor":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"h"}},"Property":"frequency"}},"Size":3.0}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+	partition host_id_summerized = m
+		mode: import
+		source =
+				let
+				    fonte = Csv.Document(File.Contents("C:\Users\mmbxb\OneDrive\Documentos\repos\power_BI\Projeto\dataset\Aula97-Dados.csv"),[Delimiter=",", Columns=16, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    cabecalhos_promovidos = Table.PromoteHeaders(fonte, [PromoteAllScalars=true]),
+				    transformar_tipo_numero_inteiro = Table.TransformColumnTypes(cabecalhos_promovidos,{{"id", Int64.Type}, {"host_id", Int64.Type}, {"minimum_nights", Int64.Type}, {"number_of_reviews", Int64.Type}, {"calculated_host_listings_count", Int64.Type}, {"availability_365", Int64.Type}}),
+				    transformar_tipo_texto = Table.TransformColumnTypes(transformar_tipo_numero_inteiro, {{"name", type text}, {"host_name", type text}, {"neighbourhood_group", type text}, {"neighbourhood", type text}, {"room_type", type text}}),
+				    transformar_tipo_numero_deciamal_localizado = Table.TransformColumnTypes(transformar_tipo_texto, {{"latitude", type number}, {"longitude", type number}, {"reviews_per_month", type number}}, "en-US"),
+				    transformar_tipo_numero_decimal_fixo_localizado = Table.TransformColumnTypes(transformar_tipo_numero_deciamal_localizado,{{"price", Currency.Type}}, "en-US"),
+				    transformar_tipo_data_localizado = Table.TransformColumnTypes(transformar_tipo_numero_decimal_fixo_localizado, {{"last_review", type date}}, "en-US"),
+				    erros_removidos_coluna_id = Table.RemoveRowsWithErrors(transformar_tipo_data_localizado, {"id"}),
+				    nulos_removidos_coluna_id = Table.SelectRows(erros_removidos_coluna_id, each [id] <> null and [id] <> ""),
+				    nulos_removidos_coluna_host_id = Table.SelectRows(nulos_removidos_coluna_id, each [host_id] <> null and [host_id] <> ""),
+				    nulos_removidos_coluna_last_review = Table.SelectRows(nulos_removidos_coluna_host_id, each [last_review] <> null and [last_review] <> ""),
+				    #"Grouped Rows" = Table.Group(nulos_removidos_coluna_last_review, {"host_id"}, {{"Count", each Table.RowCount(_), Int64.Type}}),
+				    #"Sorted Rows" = Table.Sort(#"Grouped Rows",{{"Count", Order.Descending}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Sorted Rows",{{"Count", "frequency"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,243 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "62e9735389a30b022442",
+  "position": {
+    "x": 204.44444444444443,
+    "y": 473.33333333333331,
+    "z": 15000,
+    "height": 234.44444444444443,
+    "width": 634.44444444444446,
+    "tabOrder": 15000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dados"
+                    }
+                  },
+                  "Property": "host_id"
+                }
+              },
+              "queryRef": "dados.host_id",
+              "nativeQueryRef": "ID anunciante",
+              "displayName": "ID anunciante"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2 - Medidas"
+                    }
+                  },
+                  "Property": "soma_hospedes"
+                }
+              },
+              "queryRef": "2 - Medidas.soma_hospedes",
+              "nativeQueryRef": "Total hóspedes",
+              "displayName": "Total hóspedes"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2 - Medidas"
+                    }
+                  },
+                  "Property": "soma_diarias"
+                }
+              },
+              "queryRef": "2 - Medidas.soma_diarias",
+              "nativeQueryRef": "Total diárias",
+              "displayName": "Total diárias"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2 - Medidas"
+                    }
+                  },
+                  "Property": "quantidade_media_diarias"
+                }
+              },
+              "queryRef": "2 - Medidas.quantidade_media_diarias",
+              "nativeQueryRef": "Média diárias",
+              "displayName": "Média diárias"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2 - Medidas"
+                    }
+                  },
+                  "Property": "valor_medio_diaria"
+                }
+              },
+              "queryRef": "2 - Medidas.valor_medio_diaria",
+              "nativeQueryRef": "Valor médio diária",
+              "displayName": "Valor médio diária"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2 - Medidas"
+                    }
+                  },
+                  "Property": "valor_final_hospedagem"
+                }
+              },
+              "queryRef": "2 - Medidas.valor_final_hospedagem",
+              "nativeQueryRef": "Valor total faturado",
+              "displayName": "Valor total faturado"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "2 - Medidas"
+                  }
+                },
+                "Property": "soma_hospedes"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "100.12588868214323D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "dados.host_id"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "86.27976304228127D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "2 - Medidas.soma_hospedes"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "88.5342416821637D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "2 - Medidas.soma_diarias"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "86.34012918096725D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "2 - Medidas.quantidade_media_diarias"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "125.22221237227824D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "2 - Medidas.valor_final_hospedagem"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "grid": [
+        {
+          "properties": {
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "outlineWeight": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

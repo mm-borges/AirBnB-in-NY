@@ -1,0 +1,4807 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dado.id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "dado.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "dado.host_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "host_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "host id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "host_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "host": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "host identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "host identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "host identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "host credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "congregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "multitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "horde": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "army": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "crowd": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "swarm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ID anunciante": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dado.host_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "host_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "host name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "host_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "host": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "host nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "host title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "host label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "host tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "congregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "multitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "horde": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "army": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "crowd": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "swarm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dado.neighbourhood_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "neighbourhood_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "neighbourhood group": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "neighbourhood_group": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "neighbourhood category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "neighbourhood organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "neighbourhood bracket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "neighbourhood class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "neighbourhood crew": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "neighbourhood team": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Distrito": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dado.neighbourhood": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "neighbourhood"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "neighbourhood": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "address": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "dado.latitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "latitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "leeway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "autonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "liberty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "dado.longitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "longitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitude": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dado.room_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "room_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "room type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "room_type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "room category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "room genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "room manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "room variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "room brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "room class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Tipo de acomodação": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Tipo acomodação": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dado.price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "penalty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "dado.minimum_night": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "minimum_nights"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "minimum night": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "minimum_nights": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "night": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "evening": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "minimum darkness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "minimum nightfall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "darkness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "nightfall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "minimum dark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "minimum night-time": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "minimum nighttime": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "minimum dusk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "dark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "dado.number_of_reviews": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "number_of_reviews"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "number of reviews": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number of review": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "number_of_reviews": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "quantity of review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.769
+			          }
+			        },
+			        {
+			          "amount of review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.746
+			          }
+			        },
+			        {
+			          "count of review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.746
+			          }
+			        },
+			        {
+			          "no of review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "dado.last_review": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "last_review"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last review": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "last_review": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "review": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "end review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "final review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "closing review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "concluding review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "finishing review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "former review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "latest review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "latter review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "past review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "remaining review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dado.review_per_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "reviews_per_month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "review per month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "reviews_per_month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "review": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "review per mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "appraisal per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "evaluation per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "assessment per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "examination per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "analysis per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "criticism per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "appraisal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "dado.calculated_host_listings_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "calculated_host_listings_count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calculated host listings count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "calculated host listing count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "calculated_host_listings_count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "listings count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "listing count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "host listings count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "host listing count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "calculated host listing amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "host listing amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "listing amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dado.availability_365": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "availability_365"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "availability 365": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "availability_365": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dado.total_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "total_price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_price": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dado.classification": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "classification"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "classification": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "taxonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "categorization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "cataloguing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cataloging": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sorting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ordering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "Classificação": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dado.classification_index": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "classification_index"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "classification index": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "classification_index": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "index": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "classification directory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "classification catalogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "classification catalog": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "classification guide": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "classification file": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "classification key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "classification table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "directory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalog": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "2 - medida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "2 medida": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.entity_2__medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "2 - Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "2 - medida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "2 - medida name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "2 medida": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "entity_2__medida.quantidade_hospedagens": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "quantidade_hospedagens"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade hospedagens": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_hospedagens": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Hospedagens": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Quantidade de hospedagens": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.valor_final_hospedagem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "valor_final_hospedagem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor final hospedagem": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor_final_hospedagem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Valor total faturado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.valor_medio_hospedagem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "valor_medio_hospedagem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor medio hospedagem": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor_medio_hospedagem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.quantidade_imoveis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "quantidade_imoveis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade imoveis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_imoveis": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Quantidade de Imóveis": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.quantidade_anunciantes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "quantidade_anunciantes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade anunciantes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_anunciantes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Anunciantes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Quantidade de anunciantes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.valor_medio_diaria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "valor_medio_diaria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor medio diaria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor_medio_diaria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Valor médio da diária": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Valor médio diária": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity_1__calendário": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 - Calendário"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "1 - calendário": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "1 calendário": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity_1__calendário.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 - Calendário",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity_1__calendário.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 - Calendário",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "Ano": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity_1__calendário.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 - Calendário",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "entity_1__calendário.month_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 - Calendário",
+			          "ConceptualProperty": "Month Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "Mês": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity_1__calendário.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 - Calendário",
+			          "ConceptualProperty": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity_1__calendário.day_of_week": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 - Calendário",
+			          "ConceptualProperty": "Day of Week"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day of week": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity_1__calendário.week_of_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 - Calendário",
+			          "ConceptualProperty": "Week of Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "week of month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "week of mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.ranking_bairros_imoveis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "ranking_bairros_imoveis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ranking bairros imoveis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ranking_bairros_imoveis": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.quantidade_imoveis_acumulado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "quantidade_imoveis_acumulado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade imoveis acumulado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_imoveis_acumulado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.pareto_imoveis_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "pareto_imoveis_%"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pareto_imoveis_%": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pareto_imoveis_ percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pareto_imoveis_ pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Pareto % Acumulado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dado.minimum_nights_bins": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "minimum_nights (bins)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "minimum_nights (bins)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "minimum_night (bin)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "minimum_nights": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "dado.calculated_host_listings_count_bins": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dados",
+			          "ConceptualProperty": "calculated_host_listings_count (bins)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calculated_host_listings_count (bins)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "calculated_host_listings_count (bin)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "calculated_host_listings_count": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.quantidade_media_diarias": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "quantidade_media_diarias"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade media diarias": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_media_diarias": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Quantidade média de diarias": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Média diárias": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.quantidade_media_hospedes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "quantidade_media_hospedes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade media hospedes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_media_hospedes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Quantidade média de hospedes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.soma_hospedes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "soma_hospedes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "soma hospedes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "soma_hospedes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Total hóspedes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.contagem_valores": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "ContagemValores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "contagem valores": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ContagemValores": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.measure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "Measure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "measure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "host_id_summerized": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "host_id_summerized"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "host id summerized": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "host_id_summerized": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "host identification summerized": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "host identity summerized": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "host identifier summerized": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "host credential summerized": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "host_id_summerized.host_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "host_id_summerized",
+			          "ConceptualProperty": "host_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "host id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "host_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "host": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "host identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "host identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "host identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "host credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "congregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "multitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "horde": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "army": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "crowd": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "swarm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "host_id_summerized.frequency": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "host_id_summerized",
+			          "ConceptualProperty": "frequency"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frequency": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "incidence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "occurrence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "regularity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "host_id_summerized.frequency_bins": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "host_id_summerized",
+			          "ConceptualProperty": "frequency (bins)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frequency (bins)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "frequency (bin)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2__medida.soma_diarias": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2 - Medidas",
+			          "ConceptualProperty": "soma_diarias"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "soma diarias": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "soma_diarias": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Total diárias": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "dado_has_entity_2__medida_measure": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.measure": {
+			          "Target": {
+			            "Entity": "entity_2__medida.measure"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.measure"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_measure"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_contagem_valores": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.contagem_valores": {
+			          "Target": {
+			            "Entity": "entity_2__medida.contagem_valores"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.contagem_valores"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_contagem_valores"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_soma_hospedes": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.soma_hospedes": {
+			          "Target": {
+			            "Entity": "entity_2__medida.soma_hospedes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.soma_hospedes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_soma_hospedes"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_quantidade_media_hospedes": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.quantidade_media_hospedes": {
+			          "Target": {
+			            "Entity": "entity_2__medida.quantidade_media_hospedes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.quantidade_media_hospedes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_quantidade_media_hospedes"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_quantidade_media_diarias": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.quantidade_media_diarias": {
+			          "Target": {
+			            "Entity": "entity_2__medida.quantidade_media_diarias"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.quantidade_media_diarias"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_quantidade_media_diarias"
+			        }
+			      ]
+			    },
+			    "dado_has_calculated_host_listings_count_bins": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.calculated_host_listings_count_bins": {
+			          "Target": {
+			            "Entity": "dado.calculated_host_listings_count_bins"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.calculated_host_listings_count_bins"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_calculated_host_listings_count_bins"
+			        }
+			      ]
+			    },
+			    "dado_has_minimum_nights_bins": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.minimum_nights_bins": {
+			          "Target": {
+			            "Entity": "dado.minimum_nights_bins"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.minimum_nights_bins"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_minimum_nights_bins"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_pareto_imoveis_": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.pareto_imoveis_": {
+			          "Target": {
+			            "Entity": "entity_2__medida.pareto_imoveis_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.pareto_imoveis_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_pareto_imoveis_"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_quantidade_imoveis_acumulado": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.quantidade_imoveis_acumulado": {
+			          "Target": {
+			            "Entity": "entity_2__medida.quantidade_imoveis_acumulado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.quantidade_imoveis_acumulado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_quantidade_imoveis_acumulado"
+			        }
+			      ]
+			    },
+			    "entity_2__medida_has_ranking_bairros_imoveis": {
+			      "Binding": {
+			        "ConceptualEntity": "2 - Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_2__medida": {
+			          "Target": {
+			            "Entity": "entity_2__medida"
+			          }
+			        },
+			        "entity_2__medida.ranking_bairros_imoveis": {
+			          "Target": {
+			            "Entity": "entity_2__medida.ranking_bairros_imoveis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_2__medida"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.ranking_bairros_imoveis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing2__medidas_have_ranking_bairros_imoveis"
+			        }
+			      ]
+			    },
+			    "entity_1__calendário_has_week_of_month": {
+			      "Binding": {
+			        "ConceptualEntity": "1 - Calendário"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1__calendário": {
+			          "Target": {
+			            "Entity": "entity_1__calendário"
+			          }
+			        },
+			        "entity_1__calendário.week_of_month": {
+			          "Target": {
+			            "Entity": "entity_1__calendário.week_of_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1__calendário"
+			            },
+			            "Object": {
+			              "Role": "entity_1__calendário.week_of_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1__calendários_have_week_of_month"
+			        }
+			      ]
+			    },
+			    "entity_1__calendário_has_day_of_week": {
+			      "Binding": {
+			        "ConceptualEntity": "1 - Calendário"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1__calendário": {
+			          "Target": {
+			            "Entity": "entity_1__calendário"
+			          }
+			        },
+			        "entity_1__calendário.day_of_week": {
+			          "Target": {
+			            "Entity": "entity_1__calendário.day_of_week"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1__calendário"
+			            },
+			            "Object": {
+			              "Role": "entity_1__calendário.day_of_week"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1__calendários_have_day_of_week"
+			        }
+			      ]
+			    },
+			    "entity_1__calendário_has_day": {
+			      "Binding": {
+			        "ConceptualEntity": "1 - Calendário"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1__calendário": {
+			          "Target": {
+			            "Entity": "entity_1__calendário"
+			          }
+			        },
+			        "entity_1__calendário.day": {
+			          "Target": {
+			            "Entity": "entity_1__calendário.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1__calendário"
+			            },
+			            "Object": {
+			              "Role": "entity_1__calendário.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1__calendários_have_days"
+			        }
+			      ]
+			    },
+			    "entity_1__calendário_has_month_name": {
+			      "Binding": {
+			        "ConceptualEntity": "1 - Calendário"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1__calendário": {
+			          "Target": {
+			            "Entity": "entity_1__calendário"
+			          }
+			        },
+			        "entity_1__calendário.month_name": {
+			          "Target": {
+			            "Entity": "entity_1__calendário.month_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1__calendário"
+			            },
+			            "Object": {
+			              "Role": "entity_1__calendário.month_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1__calendários_have_month_names"
+			        }
+			      ]
+			    },
+			    "entity_1__calendário_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "1 - Calendário"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1__calendário": {
+			          "Target": {
+			            "Entity": "entity_1__calendário"
+			          }
+			        },
+			        "entity_1__calendário.month": {
+			          "Target": {
+			            "Entity": "entity_1__calendário.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1__calendário"
+			            },
+			            "Object": {
+			              "Role": "entity_1__calendário.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1__calendários_have_months"
+			        }
+			      ]
+			    },
+			    "entity_1__calendário_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "1 - Calendário"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1__calendário": {
+			          "Target": {
+			            "Entity": "entity_1__calendário"
+			          }
+			        },
+			        "entity_1__calendário.year": {
+			          "Target": {
+			            "Entity": "entity_1__calendário.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1__calendário"
+			            },
+			            "Object": {
+			              "Role": "entity_1__calendário.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1__calendários_have_years"
+			        }
+			      ]
+			    },
+			    "entity_1__calendário_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "1 - Calendário"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1__calendário": {
+			          "Target": {
+			            "Entity": "entity_1__calendário"
+			          }
+			        },
+			        "entity_1__calendário.date": {
+			          "Target": {
+			            "Entity": "entity_1__calendário.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1__calendário"
+			            },
+			            "Object": {
+			              "Role": "entity_1__calendário.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1__calendários_have_dates"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_valor_medio_diaria": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.valor_medio_diaria": {
+			          "Target": {
+			            "Entity": "entity_2__medida.valor_medio_diaria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.valor_medio_diaria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_valor_medio_diaria"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_quantidade_anunciantes": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.quantidade_anunciantes": {
+			          "Target": {
+			            "Entity": "entity_2__medida.quantidade_anunciantes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.quantidade_anunciantes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_quantidade_anunciantes"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_quantidade_imoveis": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.quantidade_imoveis": {
+			          "Target": {
+			            "Entity": "entity_2__medida.quantidade_imoveis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.quantidade_imoveis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_quantidade_imoveis"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_valor_medio_hospedagem": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.valor_medio_hospedagem": {
+			          "Target": {
+			            "Entity": "entity_2__medida.valor_medio_hospedagem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.valor_medio_hospedagem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_valor_medio_hospedagem"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_valor_final_hospedagem": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.valor_final_hospedagem": {
+			          "Target": {
+			            "Entity": "entity_2__medida.valor_final_hospedagem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.valor_final_hospedagem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_valor_final_hospedagem"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_quantidade_hospedagens": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.quantidade_hospedagens": {
+			          "Target": {
+			            "Entity": "entity_2__medida.quantidade_hospedagens"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.quantidade_hospedagens"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_quantidade_hospedagens"
+			        }
+			      ]
+			    },
+			    "entity_2__medida_has_entity_2__medida": {
+			      "Binding": {
+			        "ConceptualEntity": "2 - Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_2__medida": {
+			          "Target": {
+			            "Entity": "entity_2__medida"
+			          }
+			        },
+			        "entity_2__medida.entity_2__medida": {
+			          "Target": {
+			            "Entity": "entity_2__medida.entity_2__medida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_2__medida"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.entity_2__medida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing2__medidas_have_2__medidas"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "entity_2__medida"
+			            },
+			            "Name": {
+			              "Role": "entity_2__medida.entity_2__medida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing2__medidas_are_names_IDs_of_2__medidas"
+			        }
+			      ]
+			    },
+			    "dado_has_classification_index": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.classification_index": {
+			          "Target": {
+			            "Entity": "dado.classification_index"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.classification_index"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_classification_indices"
+			        }
+			      ]
+			    },
+			    "dado_has_classification": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.classification": {
+			          "Target": {
+			            "Entity": "dado.classification"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.classification"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_classifications"
+			        }
+			      ]
+			    },
+			    "dado_has_total_price": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.total_price": {
+			          "Target": {
+			            "Entity": "dado.total_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.total_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_total_prices"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dado.total_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "total_price_indicates_how_expensive_dadoes_are"
+			        }
+			      ]
+			    },
+			    "dado_has_availability_365": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.availability_365": {
+			          "Target": {
+			            "Entity": "dado.availability_365"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.availability_365"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_availability_365"
+			        }
+			      ]
+			    },
+			    "dado_has_calculated_host_listings_count": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.calculated_host_listings_count": {
+			          "Target": {
+			            "Entity": "dado.calculated_host_listings_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.calculated_host_listings_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_calculated_host_listings_counts"
+			        }
+			      ]
+			    },
+			    "dado_has_review_per_month": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.review_per_month": {
+			          "Target": {
+			            "Entity": "dado.review_per_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.review_per_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_review_per_month"
+			        }
+			      ]
+			    },
+			    "dado_has_last_review": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.last_review": {
+			          "Target": {
+			            "Entity": "dado.last_review"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.last_review"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_last_reviews"
+			        }
+			      ]
+			    },
+			    "dado_has_number_of_reviews": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.number_of_reviews": {
+			          "Target": {
+			            "Entity": "dado.number_of_reviews"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.number_of_reviews"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_number_of_reviews"
+			        }
+			      ]
+			    },
+			    "dado_has_minimum_night": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.minimum_night": {
+			          "Target": {
+			            "Entity": "dado.minimum_night"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.minimum_night"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_minimum_nights"
+			        }
+			      ]
+			    },
+			    "dado_has_price": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.price": {
+			          "Target": {
+			            "Entity": "dado.price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_prices"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dado.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "price_indicates_how_expensive_dadoes_are"
+			        }
+			      ]
+			    },
+			    "dado_has_room_type": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.room_type": {
+			          "Target": {
+			            "Entity": "dado.room_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.room_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_room_types"
+			        },
+			        {
+			          "DynamicAdjective": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Adjective": {
+			              "Role": "dado.room_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "room_types_describe_dadoes"
+			        }
+			      ]
+			    },
+			    "dado_has_longitude": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.longitude": {
+			          "Target": {
+			            "Entity": "dado.longitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.longitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_longitudes"
+			        }
+			      ]
+			    },
+			    "dado_has_latitude": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.latitude": {
+			          "Target": {
+			            "Entity": "dado.latitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.latitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_latitudes"
+			        }
+			      ]
+			    },
+			    "dado_has_neighbourhood": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.neighbourhood": {
+			          "Target": {
+			            "Entity": "dado.neighbourhood"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.neighbourhood"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_neighbourhoods"
+			        }
+			      ]
+			    },
+			    "dado_has_neighbourhood_group": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.neighbourhood_group": {
+			          "Target": {
+			            "Entity": "dado.neighbourhood_group"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.neighbourhood_group"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_neighbourhood_groups"
+			        }
+			      ]
+			    },
+			    "dado_has_host_name": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.host_name": {
+			          "Target": {
+			            "Entity": "dado.host_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.host_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_host_names"
+			        }
+			      ]
+			    },
+			    "dado_has_name": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.name": {
+			          "Target": {
+			            "Entity": "dado.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Name": {
+			              "Role": "dado.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "names_are_names_IDs_of_dadoes"
+			        }
+			      ]
+			    },
+			    "dado_has_id": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.id": {
+			          "Target": {
+			            "Entity": "dado.id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "dado.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Name": {
+			              "Role": "dado.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ids_are_names_IDs_of_dadoes"
+			        }
+			      ]
+			    },
+			    "dado_in_neighbourhood": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "dado.neighbourhood": {
+			          "Target": {
+			            "Entity": "dado.neighbourhood"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dado.neighbourhood"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dado.neighbourhood"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_are_in_neighbourhoods"
+			        }
+			      ]
+			    },
+			    "host_id_summerized_has_host_id": {
+			      "Binding": {
+			        "ConceptualEntity": "host_id_summerized"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "host_id_summerized": {
+			          "Target": {
+			            "Entity": "host_id_summerized"
+			          }
+			        },
+			        "host_id_summerized.host_id": {
+			          "Target": {
+			            "Entity": "host_id_summerized.host_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "host_id_summerized"
+			            },
+			            "Object": {
+			              "Role": "host_id_summerized.host_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "host_id_summerizeds_have_host_ids"
+			        }
+			      ]
+			    },
+			    "host_id_summerized_has_frequency": {
+			      "Binding": {
+			        "ConceptualEntity": "host_id_summerized"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "host_id_summerized": {
+			          "Target": {
+			            "Entity": "host_id_summerized"
+			          }
+			        },
+			        "host_id_summerized.frequency": {
+			          "Target": {
+			            "Entity": "host_id_summerized.frequency"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "host_id_summerized"
+			            },
+			            "Object": {
+			              "Role": "host_id_summerized.frequency"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "host_id_summerizeds_have_frequencies"
+			        }
+			      ]
+			    },
+			    "host_id_summerized_has_frequency_bins": {
+			      "Binding": {
+			        "ConceptualEntity": "host_id_summerized"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "host_id_summerized": {
+			          "Target": {
+			            "Entity": "host_id_summerized"
+			          }
+			        },
+			        "host_id_summerized.frequency_bins": {
+			          "Target": {
+			            "Entity": "host_id_summerized.frequency_bins"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "host_id_summerized"
+			            },
+			            "Object": {
+			              "Role": "host_id_summerized.frequency_bins"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "host_id_summerizeds_have_frequency_bins"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_2__medida_soma_diarias": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_2__medida.soma_diarias": {
+			          "Target": {
+			            "Entity": "entity_2__medida.soma_diarias"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_2__medida.soma_diarias"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_soma_diarias"
+			        }
+			      ]
+			    },
+			    "dado_has_entity_1__calendário": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "entity_1__calendário": {
+			          "Target": {
+			            "Entity": "entity_1__calendário"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "entity_1__calendário"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_1__calendários"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1__calendário"
+			            },
+			            "Object": {
+			              "Role": "dado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1__calendários_have_dadoes"
+			        }
+			      ]
+			    },
+			    "dado_has_host_id_summerized": {
+			      "Binding": {
+			        "ConceptualEntity": "dados"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dado": {
+			          "Target": {
+			            "Entity": "dado"
+			          }
+			        },
+			        "host_id_summerized": {
+			          "Target": {
+			            "Entity": "host_id_summerized"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dado"
+			            },
+			            "Object": {
+			              "Role": "host_id_summerized"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dadoes_have_host_id_summerizeds"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "host_id_summerized"
+			            },
+			            "Object": {
+			              "Role": "dado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "host_id_summerizeds_have_dadoes"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

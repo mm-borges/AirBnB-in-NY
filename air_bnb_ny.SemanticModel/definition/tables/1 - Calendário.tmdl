@@ -1,0 +1,101 @@
+table '1 - Calendário'
+	lineageTag: a062f6c0-c849-469c-9c7a-801a4855c904
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: Short Date
+		lineageTag: de200724-c8cb-4d29-94de-5dfd80ee455a
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 6d1ff5b4-d1d8-4242-ac86-94ffb9e439f2
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: int64
+		formatString: 0
+		lineageTag: 4e1e4cc0-ec61-4dc5-b01a-f1912acf8e99
+		summarizeBy: none
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Name'
+		dataType: string
+		lineageTag: 8669823d-6de8-43f2-a797-fb6343b6b7bc
+		summarizeBy: none
+		sourceColumn: Month Name
+		sortByColumn: Month
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Day
+		dataType: int64
+		formatString: 0
+		lineageTag: 582cf184-1348-44d7-985b-145acf026659
+		summarizeBy: none
+		sourceColumn: Day
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Day of Week'
+		dataType: int64
+		formatString: 0
+		lineageTag: d5548f5a-d0a0-411d-9a4e-a3bd3fb562a6
+		summarizeBy: none
+		sourceColumn: Day of Week
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Week of Month'
+		dataType: int64
+		formatString: 0
+		lineageTag: 59bdc382-092e-4f3d-a139-abcf533706c0
+		summarizeBy: none
+		sourceColumn: Week of Month
+
+		annotation SummarizationSetBy = Automatic
+
+	partition '1 - Calendário' = m
+		mode: import
+		source =
+				let
+				    fonte =
+				    query_invoke_dates(
+				        List.Min(dados[last_review]),
+				        Duration.Days(
+				            List.Max(dados[last_review])
+				            -List.Min(dados[last_review])
+				        )+1,
+				        #duration(1, 0, 0, 0)
+				    ),
+				    converter_para_tabela = Table.FromList(fonte, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+				    renomear_coluna_data = Table.RenameColumns(converter_para_tabela,{{"Column1", "Date"}}),
+				    alterar_tipo_data = Table.TransformColumnTypes(renomear_coluna_data,{{"Date", type date}}),
+				    inserir_ano = Table.AddColumn(alterar_tipo_data, "Year", each Date.Year([Date]), Int64.Type),
+				    inserir_mes = Table.AddColumn(inserir_ano, "Month", each Date.Month([Date]), Int64.Type),
+				    inserir_nome_mes = Table.AddColumn(inserir_mes, "Month Name", each Date.MonthName([Date]), type text),
+				    inserir_dia = Table.AddColumn(inserir_nome_mes, "Day", each Date.Day([Date]), Int64.Type),
+				    inserir_dia_semana = Table.AddColumn(inserir_dia, "Day of Week", each Date.DayOfWeek([Date]), Int64.Type),
+				    inserir_semana_mes = Table.AddColumn(inserir_dia_semana, "Week of Month", each Date.WeekOfMonth([Date]), Int64.Type)
+				in
+				    inserir_semana_mes
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

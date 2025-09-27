@@ -1,0 +1,295 @@
+table dados
+	lineageTag: f177c734-b58e-4a51-9d91-4a276e360d1e
+
+	column id
+		dataType: int64
+		formatString: 0
+		lineageTag: 53bd4882-2e4f-4285-965b-232777fa6072
+		summarizeBy: sum
+		sourceColumn: id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: e192554d-33f0-4ad0-9ebb-3bbf8c690f63
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column host_id
+		dataType: int64
+		formatString: 0
+		lineageTag: b1a395aa-218b-40e9-b4bf-debfe29fd7a7
+		summarizeBy: none
+		sourceColumn: host_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column host_name
+		dataType: string
+		lineageTag: f0a3de72-6462-45a8-8f97-77563be4352c
+		summarizeBy: none
+		sourceColumn: host_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column neighbourhood_group
+		dataType: string
+		lineageTag: 2c2b8782-5040-4133-8d9c-51f26827364e
+		summarizeBy: none
+		sourceColumn: neighbourhood_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column neighbourhood
+		dataType: string
+		lineageTag: 088e6b8c-8e37-4ec6-82d6-7b10461c4949
+		dataCategory: Address
+		summarizeBy: none
+		sourceColumn: neighbourhood
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		lineageTag: 799a8bc3-cc79-447b-9bfe-1d5a2eb39500
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitude
+		dataType: double
+		lineageTag: ac03c1ae-d658-40f6-bff8-bca6feba864d
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column room_type
+		dataType: string
+		lineageTag: f86039d3-faf5-43a6-b29c-8b4cf3edb935
+		summarizeBy: none
+		sourceColumn: room_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column price
+		dataType: decimal
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 158134d8-61cd-4363-94b3-1a852f26e2ae
+		summarizeBy: sum
+		sourceColumn: price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column minimum_nights
+		dataType: int64
+		formatString: 0
+		lineageTag: 76e13ecc-542a-4e81-b162-26f086f093e1
+		summarizeBy: sum
+		sourceColumn: minimum_nights
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"dados","TableItemName":"minimum_nights (bins)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column number_of_reviews
+		dataType: int64
+		formatString: 0
+		lineageTag: f0da9790-ecda-4995-a48f-3a9b908f5800
+		summarizeBy: sum
+		sourceColumn: number_of_reviews
+
+		annotation SummarizationSetBy = Automatic
+
+	column last_review
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 8b8fc6c3-b2a7-4773-a5c9-8adf56f03a1f
+		summarizeBy: none
+		sourceColumn: last_review
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column reviews_per_month
+		dataType: double
+		lineageTag: aae2f2b8-3f1d-40e2-9ad6-73cf4ccd7fa6
+		summarizeBy: sum
+		sourceColumn: reviews_per_month
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column calculated_host_listings_count
+		dataType: int64
+		formatString: 0
+		lineageTag: df0b0fae-1a63-4769-8cf8-bdb77086b981
+		summarizeBy: sum
+		sourceColumn: calculated_host_listings_count
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"dados","TableItemName":"calculated_host_listings_count (bins)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column availability_365
+		dataType: int64
+		formatString: 0
+		lineageTag: 88b2e513-12c9-48e4-a784-c6dbb711537b
+		summarizeBy: sum
+		sourceColumn: availability_365
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_price =
+			
+			dados[price]*dados[minimum_nights]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 7b5a058e-fdae-4acb-baa5-d4e4199f8c43
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column classification =
+			
+			SWITCH(
+			    TRUE(),
+			    dados[total_price] <= 1000, "Baixo Padrão",
+			    dados[total_price] > 1000 && dados[total_price] <= 10000 , "Médio Padrão",
+			    dados[total_price] > 10000 && dados[total_price] <= 100000 , "Alto Padrão",
+			    "Altíssimo Padrão"
+			)
+		lineageTag: 97111fcc-483a-4a40-bf65-4a8144fb2ceb
+		summarizeBy: none
+		sortByColumn: classification_index
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column classification_index =
+			
+			SWITCH(
+			    TRUE(),
+			    dados[total_price] <= 1000, 1,
+			    dados[total_price] > 1000 && dados[total_price] <= 10000 , 2,
+			    dados[total_price] > 10000 && dados[total_price] <= 100000 , 3,
+			    4
+			)
+		formatString: 0
+		lineageTag: e749c29b-65ae-4ce0-8f49-43df0b6ff13e
+		summarizeBy: none
+
+		annotation SummarizationSetBy = User
+
+	column 'minimum_nights (bins)' =
+			IF(
+				ISBLANK('dados'[minimum_nights]),
+				BLANK(),
+				INT('dados'[minimum_nights] / 3) * 3
+			)
+		formatString: 0
+		lineageTag: 0c8f40ed-7ce2-4944-bde4-caa37d56c417
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "dados"
+				          }
+				        },
+				        "Property": "minimum_nights"
+				      }
+				    }
+				  ],
+				  "binningMetadata": {
+				    "binSize": {
+				      "value": 3.0,
+				      "unit": 0
+				    }
+				  }
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"d","Entity":"dados"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"d"}},"Property":"minimum_nights"}}],"BinItem":{"Expression":{"Floor":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"d"}},"Property":"minimum_nights"}},"Size":3.0}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'calculated_host_listings_count (bins)' =
+			IF(
+				ISBLANK('dados'[calculated_host_listings_count]),
+				BLANK(),
+				INT('dados'[calculated_host_listings_count])
+			)
+		formatString: 0
+		lineageTag: 24cedb35-c21b-43f5-b10b-ac9dd5207590
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "dados"
+				          }
+				        },
+				        "Property": "calculated_host_listings_count"
+				      }
+				    }
+				  ],
+				  "binningMetadata": {
+				    "binSize": {
+				      "value": 1.0,
+				      "unit": 0
+				    }
+				  }
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"d","Entity":"dados"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"d"}},"Property":"calculated_host_listings_count"}}],"BinItem":{"Expression":{"Floor":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"d"}},"Property":"calculated_host_listings_count"}},"Size":1.0}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dados = m
+		mode: import
+		source =
+				let
+				    fonte = Csv.Document(File.Contents("C:\Users\mmbxb\OneDrive\Documentos\repos\power_BI\Projeto\dataset\Aula97-Dados.csv"),[Delimiter=",", Columns=16, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    cabecalhos_promovidos = Table.PromoteHeaders(fonte, [PromoteAllScalars=true]),
+				    transformar_tipo_numero_inteiro = Table.TransformColumnTypes(cabecalhos_promovidos,{{"id", Int64.Type}, {"host_id", Int64.Type}, {"minimum_nights", Int64.Type}, {"number_of_reviews", Int64.Type}, {"calculated_host_listings_count", Int64.Type}, {"availability_365", Int64.Type}}),
+				    transformar_tipo_texto = Table.TransformColumnTypes(transformar_tipo_numero_inteiro, {{"name", type text}, {"host_name", type text}, {"neighbourhood_group", type text}, {"neighbourhood", type text}, {"room_type", type text}}),
+				    transformar_tipo_numero_deciamal_localizado = Table.TransformColumnTypes(transformar_tipo_texto, {{"latitude", type number}, {"longitude", type number}, {"reviews_per_month", type number}}, "en-US"),
+				    transformar_tipo_numero_decimal_fixo_localizado = Table.TransformColumnTypes(transformar_tipo_numero_deciamal_localizado,{{"price", Currency.Type}}, "en-US"),
+				    transformar_tipo_data_localizado = Table.TransformColumnTypes(transformar_tipo_numero_decimal_fixo_localizado, {{"last_review", type date}}, "en-US"),
+				    erros_removidos_coluna_id = Table.RemoveRowsWithErrors(transformar_tipo_data_localizado, {"id"}),
+				    nulos_removidos_coluna_id = Table.SelectRows(erros_removidos_coluna_id, each [id] <> null and [id] <> ""),
+				    nulos_removidos_coluna_host_id = Table.SelectRows(nulos_removidos_coluna_id, each [host_id] <> null and [host_id] <> ""),
+				    nulos_removidos_coluna_last_review = Table.SelectRows(nulos_removidos_coluna_host_id, each [last_review] <> null and [last_review] <> "")
+				in
+				    nulos_removidos_coluna_last_review
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

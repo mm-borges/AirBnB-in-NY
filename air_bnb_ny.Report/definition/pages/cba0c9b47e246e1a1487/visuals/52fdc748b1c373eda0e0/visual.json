@@ -1,0 +1,150 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "52fdc748b1c373eda0e0",
+  "position": {
+    "x": 532,
+    "y": 84.8,
+    "z": 0,
+    "height": 623.2,
+    "width": 736
+  },
+  "visual": {
+    "visualType": "lineStackedColumnComboChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dados"
+                    }
+                  },
+                  "Property": "neighbourhood"
+                }
+              },
+              "queryRef": "dados.neighbourhood",
+              "nativeQueryRef": "neighbourhood",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dados"
+                    }
+                  },
+                  "Property": "neighbourhood_group"
+                }
+              },
+              "queryRef": "dados.neighbourhood_group",
+              "nativeQueryRef": "Distrito",
+              "displayName": "Distrito"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2 - Medidas"
+                    }
+                  },
+                  "Property": "quantidade_imoveis"
+                }
+              },
+              "queryRef": "2 - Medidas.quantidade_imoveis",
+              "nativeQueryRef": "Quantidade de Imóveis",
+              "displayName": "Quantidade de Imóveis"
+            }
+          ]
+        },
+        "Y2": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2 - Medidas"
+                    }
+                  },
+                  "Property": "pareto_imoveis_%"
+                }
+              },
+              "queryRef": "2 - Medidas.pareto_imoveis_%",
+              "nativeQueryRef": "Pareto % Acumulado",
+              "displayName": "Pareto % Acumulado"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "2 - Medidas"
+                  }
+                },
+                "Property": "quantidade_imoveis"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Diagrama de Pareto: Quantidade de Imóveis por Bairro'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

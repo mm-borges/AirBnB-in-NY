@@ -1,0 +1,168 @@
+table '2 - Medidas'
+	lineageTag: 5eb7096b-d077-48e4-a3ff-e266cb08a909
+
+	measure quantidade_hospedagens =
+			
+			COUNTROWS(
+			    dados
+			    )
+		formatString: #,0
+		lineageTag: 58126cda-337b-444b-90e7-9bcc5688cb5d
+
+	measure valor_final_hospedagem =
+			
+			SUMX(
+			    dados,
+			    dados[price] * dados[minimum_nights]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: ff51f1cf-e0df-470d-98a9-db0b3087a4e8
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure valor_medio_hospedagem =
+			
+			AVERAGEX(
+			    dados,
+			    dados[price] * dados[minimum_nights]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 5a0698d5-63b6-48c6-9406-a11b80247738
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure quantidade_imoveis =
+			
+			DISTINCTCOUNT(
+			    dados[id]
+			)
+		formatString: #,0
+		lineageTag: 2a7c16d6-1a31-4ddb-8464-ed8b6c4decd3
+
+	measure quantidade_anunciantes =
+			
+			DISTINCTCOUNT(
+			    dados[host_id]
+			)
+		formatString: #,0
+		lineageTag: 8430f48f-243b-49d1-b145-c16c568f1b5f
+
+	measure valor_medio_diaria =
+			
+			AVERAGE(
+			    dados[price]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: b7570f2f-56c6-4201-b632-ef18fb488e4d
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure ranking_bairros_imoveis =
+			
+			RANKX(
+			    ALLSELECTED(
+			        dados[neighbourhood]
+			    ),
+			    [quantidade_imoveis]
+			)
+		formatString: 0
+		lineageTag: eaf636f3-1e8e-494a-8e1a-08da540cf7fc
+
+	measure quantidade_imoveis_acumulado =
+			
+			CALCULATE(
+			    [quantidade_imoveis],
+			    TOPN(
+			        [ranking_bairros_imoveis],
+			        ALLSELECTED(
+			            dados[neighbourhood]
+			        ),
+			        [quantidade_imoveis]
+			    )
+			)
+		formatString: #,0
+		lineageTag: 24cb4c83-a686-4fa8-8f67-07ae7af48c06
+
+	measure pareto_imoveis_% =
+			
+			DIVIDE(
+			    [quantidade_imoveis_acumulado],
+			    CALCULATE(
+			        [quantidade_imoveis],
+			        ALLSELECTED(
+			            dados
+			        )
+			    )
+			)
+		formatString: 0%;-0%;0%
+		lineageTag: 3718b918-381c-48c5-86eb-943d6e4cda7e
+
+	measure quantidade_media_diarias =
+			
+			AVERAGE(
+			    dados[minimum_nights]
+			)
+		lineageTag: f10a11c9-5552-4243-822c-8d08476f54e0
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure quantidade_media_hospedes =
+			
+			AVERAGE(
+			    dados[calculated_host_listings_count]
+			)
+		lineageTag: 7d06d2d6-a47a-42f7-a611-7bc44361bb7b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure soma_hospedes =
+			
+			SUM(
+			    dados[calculated_host_listings_count]
+			)
+		formatString: #,0
+		lineageTag: b21ac552-870a-4836-ae85-68e9667e8321
+
+	measure ContagemValores =
+			
+			COUNT(dados[host_id])
+		formatString: 0
+		lineageTag: 47b4d525-a7a7-4470-9802-28cfac736256
+
+	measure Measure =
+			
+			CALCULATE(
+			    COUNT(dados[host_id]),
+			    FILTER(dados,
+			    [ContagemValores]>100))
+		formatString: 0
+		lineageTag: 4d702847-3943-48da-9718-4b4fd395c7cc
+
+	measure soma_diarias =
+			
+			SUM(
+			    dados[minimum_nights]
+			)
+		formatString: #,0
+		lineageTag: e4ce5a0f-6f3c-48bf-9177-5ab9cf1d937e
+
+	column '2 - Medidas'
+		dataType: string
+		lineageTag: a17f4411-1f90-4109-9efa-edec8cb83891
+		summarizeBy: none
+		sourceColumn: 2 - Medidas
+
+		annotation SummarizationSetBy = Automatic
+
+	partition '2 - Medidas' = m
+		mode: import
+		source =
+				let
+				    Fonte = ""
+				in
+				    Fonte
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Text
+

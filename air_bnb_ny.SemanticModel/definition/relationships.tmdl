@@ -1,0 +1,8 @@
+relationship 127a9a35-ef50-a04f-c3ad-610027d424d0
+	fromColumn: dados.last_review
+	toColumn: '1 - Calendário'.Date
+
+relationship AutoDetected_27969d64-74da-4d44-9180-8be78e6b4dd2
+	fromColumn: dados.host_id
+	toColumn: host_id_summerized.host_id
+

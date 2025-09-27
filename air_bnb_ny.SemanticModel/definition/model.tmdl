@@ -1,0 +1,21 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["1 - Calendário","2 - Medidas","dados","query_invoke_dates","host_id_summerized"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dados
+ref table '2 - Medidas'
+ref table '1 - Calendário'
+ref table host_id_summerized
+
+ref cultureInfo pt-BR
+
